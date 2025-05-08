@@ -66,6 +66,15 @@ const InternshipsList = () => {
         setLoading(false);
       }
     };
-
+  useEffect(() => {
     fetchCSVData();
   }, []);
+
+  return (
+    <div>
+      {/* Your rendered JSX here */}
+    </div>
+  );
+};
+
+export default InternshipsList;
